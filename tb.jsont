@@ -1,18 +1,8 @@
 {
-  "spider": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar",
   "sites": [
     {
-      "key": "豆瓣",
-      "name": "🔍豆瓣推荐",
-      "type": 3,
-      "api": "csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
       "key": "lz",
-      "name": "量子资源",
+      "name": "量子影视",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -20,7 +10,7 @@
     },
     {
       "key": "ff",
-      "name": "非凡资源",
+      "name": "非凡影视",
       "type": 1,
       "api": "http://ffzy5.tv/api.php/provide/vod/",
       "searchable": 1,
@@ -28,35 +18,40 @@
     },
     {
       "key": "ikun",
-      "name": "IKUN资源",
+      "name": "IKUN影视",
       "type": 1,
       "api": "https://ikunzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1
+    },
+    {
+      "key": "douban",
+      "name": "豆瓣热播",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/YOURUSER/YOURREPO/main/douban.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1
     }
   ],
   "parses": [
     {
       "name": "jsonplayer",
-      "type": 0,
       "url": "https://jx.jsonplayer.com/player/?url="
     },
     {
       "name": "xmflv",
-      "type": 0,
       "url": "https://jx.xmflv.com/?url="
     },
     {
-      "name": "777",
-      "type": 0,
+      "name": "777jiexi",
       "url": "https://jx.777jiexi.com/player/?url="
     }
   ],
   "lives": [
     {
-      "name": "电视直播",
-      "type": 0,
-      "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
+      "name": "央视直播",
+      "url": "http://175.178.251.183:6689/live.m3u",
       "playerType": 1
     }
   ],
