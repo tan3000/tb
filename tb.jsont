@@ -1,26 +1,26 @@
 {
   "sites": [
     {
-      "key": "zy1",
-      "name": "资源1",
+      "key": "zdy_1",
+      "name": "全网影视",
       "type": 1,
-      "api": "http://zyz.sdljwomen.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "zy2",
-      "name": "资源2",
-      "type": 1,
-      "api": "http://api.yparse.com/api/json",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "zy3",
-      "name": "资源3",
-      "type": 0,
       "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "zdy_2",
+      "name": "小米影视",
+      "type": 1,
+      "api": "https://play.iptv365.org/小米/api.json",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "zdy_3",
+      "name": "欧歌影视",
+      "type": 3,
+      "api": "https://play.iptv365.org/欧歌/api.json",
       "searchable": 1,
       "quickSearch": 1
     }
@@ -39,6 +39,11 @@
       "url": "https://vip.parwix.com:4433/player/?url="
     }
   ],
-  "lives": [],
+  "lives": [
+    {
+      "name": "央视直播",
+      "url": "http://175.178.251.183:6689/live.m3u"
+    }
+  ],
   "flags": []
 }
